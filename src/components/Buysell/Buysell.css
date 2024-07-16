@@ -1,0 +1,54 @@
+.container-buysell{
+    text-align: center;
+    padding: 100px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: auto;
+    width: 100%;
+    /* border: 2px solid gray; */
+  }
+  
+  .heading-buysell {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .description-buysell {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+
+  .data-table{
+    width: 80%;
+    /* text-align: center; */
+    margin: 20px auto;
+    height: 416px;
+    border-collapse: collapse;
+    /* border: 2px solid gray; */
+    border-radius: 20px;
+    background-color: #1A1B23;
+  }
+
+  .data-table tr {
+    border-bottom: 1px solid #2B2C3B;
+    /* border-bottom-width: 60%; */
+}
+
+.data-table tr td a {
+  /* border-bottom: 1px solid #2B2C3B; */
+  /* border-bottom-width: 60%; */
+  /* color: ; */
+}
+
+  .data-table tbody tr:last-child {
+        border-bottom: none;
+        /* border-bottom-width: 60%; */
+    }
+
+  .external-link{
+    /* margin: 10px; */
+    text-decoration: none;
+  }
+  

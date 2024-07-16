@@ -1,0 +1,111 @@
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease-in-out;
+    height: 80px;
+  }
+  
+  .header:hover {
+    background-color: rgb(48, 46, 46);
+  }
+
+  
+  .logo {
+    height: 50px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+  }
+  
+  .nav-links-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 150px;
+    margin-right: 40px;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+  }
+  
+  .nav-links a:hover {
+    color: #007bff;
+  }
+  
+  .header-buttons {
+    display: flex;
+  }
+  
+  .header-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .header-buttons .btn-primary {
+    background-color: transparent;
+    border: 1px solid gray;
+    color: white;
+    width: 100px;
+    height: 40px;
+  }
+  
+  .header-buttons .btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .header-buttons .btn-secondary {
+    background: linear-gradient(67deg, hsla(266, 99%, 62%, 1) 0%, hsla(194, 100%, 55%, 1) 100%);
+    color: white;
+  }
+  
+  .header-buttons .btn-secondary:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+  }
+
+  .progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: blue;
+    transform-origin: 0%;
+    border-radius: 10px
+  }
+  
